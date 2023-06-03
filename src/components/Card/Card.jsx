@@ -11,7 +11,7 @@ export default function Card(props) {
          <h2 className={styles.h2s}>{props.species}</h2>
          <h2 className={styles.h2s}>{props.gender}</h2>
          <h2 className={styles.h2s}>{props.origin}</h2>
-         <img className={styles.imgS} src={props.image} alt='Esta imagen pertenese a' /> 
+         <img className={styles.imgS} src={props.image} alt='Esta imagen pertenese a la Tarjeta' /> 
       </div>
    );
 }
