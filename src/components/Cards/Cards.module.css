@@ -1,0 +1,11 @@
+.divCards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100em;
+    height: 60em;
+    margin: auto;
+  }
+  

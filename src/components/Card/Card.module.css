@@ -1,0 +1,58 @@
+.divCard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 300px;
+    height: 400px;
+    padding: 1em;
+    border-radius: 1em;
+    border-style: solid;
+    border-color: black;
+    flex-direction: column;
+    background-color: antiquewhite;
+    margin: 1em;
+  }
+  
+  
+
+.h2s{
+    font-size: 1em;
+    text-align: left;
+    position: relative;
+    bottom: 1.2em;
+    font-family:'fantasy';
+    font-weight: bolder;
+    
+}
+
+.imgS{
+    width: 200px;
+    height: 200px;
+    position:relative;
+    bottom: 0.6em;
+    left: 1.6em;
+    border-style: solid;
+
+}
+
+.buttonS{
+    padding: 0.5em;
+    background-color: red;
+    color: whitesmoke;
+    position: relative;
+    left: 17.5em;
+    bottom: 1em;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border-radius: 1em;
+    
+    
+}
+
+.buttonS:hover{
+    background-color: white;
+    color: gray;
+}
+
+.spanS{
+    pointer-events: none;
+    font-size: 1em;
+}
