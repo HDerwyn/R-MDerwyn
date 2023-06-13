@@ -15,9 +15,6 @@ export default function Nav(props) {
         <NavLink to="/Home" className={`${styles.link} ${styles.but}`}>
           <div className={styles.letrasbotones}> Home </div>
         </NavLink>
-        <NavLink to="/Detail/:id" className={`${styles.link} ${styles.but}`}>
-          <div className={styles.letrasbotones}> Details </div>
-        </NavLink>
       </div>
       <SearchBar onSearch={onSearch} />
     </nav>

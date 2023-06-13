@@ -1,8 +1,6 @@
 import './App.css';
-import Card from './components/Card/Card';
 import Cards from './components/Cards/Cards';
 import Nav from './components/Nav/Nav';
-import SearchBar from './components/SearchBar/SearchBar';
 import { useState } from 'react';
 import axios from 'axios';
 import { Route } from 'react-router-dom';
