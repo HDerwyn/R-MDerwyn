@@ -1,0 +1,32 @@
+.navS {
+  display: flex;
+  flex-direction: column;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+    margin-top: 15px;
+    height: 3em;
+    width: 5em;
+    border-radius: 0.7em;
+    border-color: black;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: fantasy;
+}
+
+.but {
+  background-color: white;
+  color: black;
+  text-align: center;
+  margin: 3em;
+}
+
+.letrasbotones{
+    text-align: center;
+    margin-top: 14px;
+}

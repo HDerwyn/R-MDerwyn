@@ -1,0 +1,12 @@
+.divCard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 300px;
+    height: 400px;
+    padding: 1em;
+    border-radius: 1em;
+    border-style: solid;
+    border-color: rgb(9, 8, 8);
+    flex-direction: column;
+    background-color: antiquewhite;
+    margin: 1em;
+  }
